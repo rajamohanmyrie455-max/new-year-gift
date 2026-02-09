@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>新年祝福</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="container">
+
+    <!-- 1 新年祝福 -->
+    <section class="page">
+      <h1>新年快乐</h1>
+      <p>这是我想送给你的一点心意</p>
+      <p class="hint">向下滑动</p>
+    </section>
+
+    <!-- 2 一封信 -->
+    <section class="page letter">
+      <h2>写给你的一封信</h2>
+      <p>
+        新的一年开始了。<br><br>
+        我想对你说的不是祝你多成功，<br>
+        而是希望你在每一个普通的日子里，<br>
+        都不必太勉强自己。
+      </p>
+    </section>
+
+    <!-- 3 红包 -->
+    <section class="page">
+      <h2>一个小惊喜</h2>
+      <p>
+        这是一个不一定要领的红包。<br>
+        它不代表什么责任，<br>
+        只是我想参与你的一点生活。
+      </p>
+      <button onclick="showGift()">🎁 打开</button>
+    </section>
+
+    <!-- 4 歌单 -->
+    <section class="page">
+      <h2>给你的歌单</h2>
+      <ul class="playlist">
+        <li>🎵 Fix You — Coldplay</li>
+        <li>🎵 River — Leon Bridges</li>
+        <li>🎵 青春 — 五月天</li>
+      </ul>
+    </section>
+
+    <!-- 5 结尾 -->
+    <section class="page end">
+      <h2>最后</h2>
+      <p>
+        新的一年，<br>
+        希望你被世界温柔以待，<br>
+        也被自己温柔以待。
+      </p>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
